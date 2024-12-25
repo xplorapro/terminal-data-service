@@ -26,6 +26,27 @@
 			"response": []
 		},
 		{
+			"name": "getSpecificTerminal",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/terminals/ORD/2",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"terminals",
+						"ORD",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
 			"name": "addTerminal",
 			"request": {
 				"method": "POST",
@@ -138,6 +159,27 @@
 						"terminals",
 						"KCI",
 						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "removeTerminal",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/terminals/KCI/3",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"terminals",
+						"KCI",
+						"3"
 					]
 				}
 			},
