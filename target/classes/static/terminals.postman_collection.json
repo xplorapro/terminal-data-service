@@ -1,0 +1,147 @@
+{
+	"info": {
+		"_postman_id": "45f6bd8c-0978-4489-9253-96463b6d1fec",
+		"name": "Playground | Terminals",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "36190945"
+	},
+	"item": [
+		{
+			"name": "getTerminals",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/terminals",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"terminals"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "addTerminal",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"airport\": \"KCI\",\r\n        \"terminalNumber\": 2,\r\n        \"passengerCount\": 847592,\r\n        \"temperature\": -2.75,\r\n        \"stats\": {\r\n            \"avgWaitTime\": 23.45,\r\n            \"satisfaction\": 4.8,\r\n            \"occupancyRate\": 78.5,\r\n            \"lastChecked\": \"2024-12-25T08:15:30Z\",\r\n            \"isOpen\": true\r\n        },\r\n        \"gates\": [\r\n            \"A1\",\r\n            \"A2\",\r\n            \"A3\"\r\n        ]\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/terminals",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"terminals"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "updateTerminal",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"airport\": \"KCI\",\r\n        \"terminalNumber\": 2,\r\n        \"passengerCount\": 847592,\r\n        \"temperature\": -2.75,\r\n        \"stats\": {\r\n            \"avgWaitTime\": 23.45,\r\n            \"satisfaction\": 4.8,\r\n            \"occupancyRate\": 78.5,\r\n            \"lastChecked\": \"2024-12-25T08:15:30Z\",\r\n            \"isOpen\": true\r\n        },\r\n        \"gates\": [\r\n            \"K1\",\r\n            \"K2\",\r\n            \"K3\"\r\n        ]\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/terminals/{airport}/{terminalNumber}",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"terminals",
+						"{airport}",
+						"{terminalNumber}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "partialUpdateTerminalGates",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"terminalNumber\": 11,\r\n        \"passengerCount\": 11111\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/terminals/KCI/2",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"terminals",
+						"KCI",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "partialUpdateTerminalStats",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"terminalNumber\": 11,\r\n        \"passengerCount\": 11111\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/terminals/KCI/2",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"terminals",
+						"KCI",
+						"2"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

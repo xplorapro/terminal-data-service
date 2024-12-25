@@ -1,0 +1,6 @@
+com\terminal\dataset\Terminal.class
+com\terminal\dataset\Terminal$Stats.class
+com\terminal\dataset\TerminalController.class
+com\terminal\dataset\TerminalInitializer.class
+com\terminal\dataset\TerminalRepository.class
+com\terminal\dataset\TerminalService.class

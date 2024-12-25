@@ -1,0 +1,212 @@
+[
+  {
+    "airport": "LAX",
+    "terminalNumber": 3,
+    "passengerCount": 567890,
+    "temperature": 21.45,
+    "stats": {
+      "avgWaitTime": 18.75,
+      "satisfaction": 4.2,
+      "occupancyRate": 82.5,
+      "lastChecked": "2024-12-25T08:20:15Z",
+      "isOpen": true
+    },
+    "gates": ["B1", "B2", "B3"]
+  },
+  {
+    "airport": "JFK",
+    "terminalNumber": 1,
+    "passengerCount": 456789,
+    "temperature": 18.23,
+    "stats": {
+      "avgWaitTime": 22.1,
+      "satisfaction": 4.1,
+      "occupancyRate": 85.3,
+      "lastChecked": "2024-12-25T08:15:20Z",
+      "isOpen": true
+    },
+    "gates": ["A1", "A2", "A3"]
+  },
+  {
+    "airport": "ORD",
+    "terminalNumber": 2,
+    "passengerCount": 678901,
+    "temperature": 15.67,
+    "stats": {
+      "avgWaitTime": 19.5,
+      "satisfaction": 4.3,
+      "occupancyRate": 80.8,
+      "lastChecked": "2024-12-25T08:18:30Z",
+      "isOpen": true
+    },
+    "gates": ["C1", "C2", "C3"]
+  },
+  {
+    "airport": "DFW",
+    "terminalNumber": 4,
+    "passengerCount": 345678,
+    "temperature": 25.12,
+    "stats": {
+      "avgWaitTime": 17.8,
+      "satisfaction": 4.0,
+      "occupancyRate": 78.9,
+      "lastChecked": "2024-12-25T08:22:15Z",
+      "isOpen": true
+    },
+    "gates": ["D1", "D2", "D3"]
+  },
+  {
+    "airport": "ATL",
+    "terminalNumber": 5,
+    "passengerCount": 789012,
+    "temperature": 20.34,
+    "stats": {
+      "avgWaitTime": 20.25,
+      "satisfaction": 4.4,
+      "occupancyRate": 83.6,
+      "lastChecked": "2024-12-25T08:17:45Z",
+      "isOpen": true
+    },
+    "gates": ["E1", "E2", "E3"]
+  },
+  {
+    "airport": "DEN",
+    "terminalNumber": 1,
+    "passengerCount": 456789,
+    "temperature": 12.87,
+    "stats": {
+      "avgWaitTime": 18.9,
+      "satisfaction": 4.2,
+      "occupancyRate": 81.5,
+      "lastChecked": "2024-12-25T08:21:00Z",
+      "isOpen": true
+    },
+    "gates": ["F1", "F2", "F3"]
+  },
+  {
+    "airport": "SFO",
+    "terminalNumber": 2,
+    "passengerCount": 567890,
+    "temperature": 16.54,
+    "stats": {
+      "avgWaitTime": 21.35,
+      "satisfaction": 4.1,
+      "occupancyRate": 84.2,
+      "lastChecked": "2024-12-25T08:16:15Z",
+      "isOpen": true
+    },
+    "gates": ["G1", "G2", "G3"]
+  },
+  {
+    "airport": "CLT",
+    "terminalNumber": 3,
+    "passengerCount": 345678,
+    "temperature": 22.1,
+    "stats": {
+      "avgWaitTime": 17.65,
+      "satisfaction": 4.0,
+      "occupancyRate": 79.8,
+      "lastChecked": "2024-12-25T08:19:30Z",
+      "isOpen": true
+    },
+    "gates": ["H1", "H2", "H3"]
+  },
+  {
+    "airport": "LAS",
+    "terminalNumber": 1,
+    "passengerCount": 456789,
+    "temperature": 28.35,
+    "stats": {
+      "avgWaitTime": 19.2,
+      "satisfaction": 4.3,
+      "occupancyRate": 82.1,
+      "lastChecked": "2024-12-25T08:18:00Z",
+      "isOpen": true
+    },
+    "gates": ["I1", "I2", "I3"]
+  },
+  {
+    "airport": "MIA",
+    "terminalNumber": 2,
+    "passengerCount": 678901,
+    "temperature": 26.78,
+    "stats": {
+      "avgWaitTime": 20.5,
+      "satisfaction": 4.2,
+      "occupancyRate": 83.4,
+      "lastChecked": "2024-12-25T08:17:15Z",
+      "isOpen": true
+    },
+    "gates": ["J1", "J2", "J3"]
+  },
+  {
+    "airport": "PHX",
+    "terminalNumber": 3,
+    "passengerCount": 345678,
+    "temperature": 24.56,
+    "stats": {
+      "avgWaitTime": 18.1,
+      "satisfaction": 4.1,
+      "occupancyRate": 80.5,
+      "lastChecked": "2024-12-25T08:20:45Z",
+      "isOpen": true
+    },
+    "gates": ["K1", "K2", "K3"]
+  },
+  {
+    "airport": "SEA",
+    "terminalNumber": 1,
+    "passengerCount": 456789,
+    "temperature": 14.32,
+    "stats": {
+      "avgWaitTime": 21.75,
+      "satisfaction": 4.4,
+      "occupancyRate": 85.0,
+      "lastChecked": "2024-12-25T08:16:30Z",
+      "isOpen": true
+    },
+    "gates": ["L1", "L2", "L3"]
+  },
+  {
+    "airport": "IAH",
+    "terminalNumber": 2,
+    "passengerCount": 567890,
+    "temperature": 23.89,
+    "stats": {
+      "avgWaitTime": 19.45,
+      "satisfaction": 4.3,
+      "occupancyRate": 82.8,
+      "lastChecked": "2024-12-25T08:19:00Z",
+      "isOpen": true
+    },
+    "gates": ["M1", "M2", "M3"]
+  },
+  {
+    "airport": "MSP",
+    "terminalNumber": 3,
+    "passengerCount": 345678,
+    "temperature": 10.56,
+    "stats": {
+      "avgWaitTime": 18.6,
+      "satisfaction": 4.2,
+      "occupancyRate": 81.2,
+      "lastChecked": "2024-12-25T08:21:15Z",
+      "isOpen": true
+    },
+    "gates": ["N1", "N2", "N3"]
+  },
+  {
+    "airport": "KCI",
+    "terminalNumber": 3,
+    "passengerCount": 345678,
+    "temperature": 10.56,
+    "stats": {
+      "avgWaitTime": 18.6,
+      "satisfaction": 4.2,
+      "occupancyRate": 81.2,
+      "lastChecked": "2024-12-25T08:21:15Z",
+      "isOpen": true
+    },
+    "gates": ["N1", "N2", "N3"]
+  }
+]
