@@ -1,7 +1,7 @@
 # terminal-data-service
 Local RESTful CRUD APIs for Terminal dataset
 
-**JSON Structure**
+## JSON Structure
 
 *{
     "airport": "LAX",
@@ -34,3 +34,77 @@ The JSON represents data about an airport terminal, including:
 
 Store and exchange information about a specific airport terminal.
 
+## Testing Endpoints
+
+**GET: /api/terminals** Get latest terminal data
+localhost:8080/api/terminals
+
+**GET /api/terminals/{airport}/{terminalNumber}:** Replace{airport}and{terminalNumber}with actual values localhost:8080/api/terminals/ORD/2
+
+**POST /api/terminals:** Send a JSON object in the request body representing the terminal data.
+
+**Endpoint** localhost:8080/api/terminals
+        
+**Body**
+        
+        {
+                "airport": "SFO",
+                "terminalNumber": 2,
+                "passengerCount": 847592,
+                "temperature": -2.75,
+                "stats": {
+                    "avgWaitTime": 23.45,
+                    "satisfaction": 4.8,
+                    "occupancyRate": 78.5,
+                    "lastChecked": "2024-12-25T08:15:30Z",
+                    "isOpen": true
+                },
+                "gates": [
+                    "A1",
+                    "A2",
+                    "A3"
+                ]
+            }
+
+**PUT /api/terminals/{airport}/{terminalNumber}`:** Send a JSON object in the request body with the updated terminal data.
+
+**Endpoint** localhost:8080/api/terminals/SFO/2
+        
+**Body**
+        
+        {
+                "airport": "SFO",
+                "terminalNumber": 2,
+                "passengerCount": 847592,
+                "temperature": -2.75,
+                "stats": {
+                    "avgWaitTime": 23.45,
+                    "satisfaction": 4.8,
+                    "occupancyRate": 78.5,
+                    "lastChecked": "2024-12-25T08:15:30Z",
+                    "isOpen": true
+                },
+                "gates": [
+                    "A1",
+                    "A2",
+                    "A3"
+                ]
+            }
+            
+**PATCH /api/terminals/{airport}/{terminalNumber}`:** Send a JSON object in the request body with the partially updated terminal data.
+
+**Endpoint** localhost:8080/api/terminals/SFO/2
+        
+**Body**
+
+        {
+                "gates": [
+                    "N1",
+                    "N2",
+                    "N3"
+                ]
+            }
+            
+**DELETE /api/terminals/{airport}/{terminalNumber}`:** Send the DELETE request.
+
+**Endpoint** localhost:8080/api/terminals/SFO/2
