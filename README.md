@@ -3,20 +3,20 @@ Local RESTful CRUD APIs for Terminal dataset
 
 ## JSON Structure
 
-*{
-    "airport": "LAX",
-    "terminalNumber": 3,
-    "passengerCount": 567890,
-    "temperature": 21.45,
-    "stats": {
-      "avgWaitTime": 18.75,
-      "satisfaction": 4.2,
-      "occupancyRate": 82.5,
-      "lastChecked": "2024-12-25T08:20:15Z",
-      "isOpen": true
-    },
-    "gates": ["B1", "B2", "B3"]
-  }*
+    {
+        "airport": "LAX",
+        "terminalNumber": 3,
+        "passengerCount": 567890,
+        "temperature": 21.45,
+        "stats": {
+          "avgWaitTime": 18.75,
+          "satisfaction": 4.2,
+          "occupancyRate": 82.5,
+          "lastChecked": "2024-12-25T08:20:15Z",
+          "isOpen": true
+        },
+        "gates": ["B1", "B2", "B3"]
+      }
 
 The JSON represents data about an airport terminal, including:
 
