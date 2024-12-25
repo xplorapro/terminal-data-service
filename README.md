@@ -36,16 +36,27 @@ Store and exchange information about a specific airport terminal.
 
 ## Testing Endpoints
 
+![image](https://github.com/user-attachments/assets/45df5184-ec7f-4bc2-b1dc-9cdad65b4bf5)
+
 **GET: /api/terminals** Get latest terminal data
-localhost:8080/api/terminals
 
-**GET /api/terminals/{airport}/{terminalNumber}:** Replace{airport}and{terminalNumber}with actual values localhost:8080/api/terminals/ORD/2
+**Endpoint**
 
+    localhost:8080/api/terminals
+---
+**GET /api/terminals/{airport}/{terminalNumber}:** Replace{airport}and{terminalNumber}with actual values 
+
+**Endpoint**
+
+    localhost:8080/api/terminals/ORD/2
+---
 **POST /api/terminals:** Send a JSON object in the request body representing the terminal data.
 
-**Endpoint** localhost:8080/api/terminals
+**Endpoint**
+
+    localhost:8080/api/terminals
         
-**Body**
+**Request Body**
         
         {
                 "airport": "SFO",
@@ -65,12 +76,14 @@ localhost:8080/api/terminals
                     "A3"
                 ]
             }
-
+---
 **PUT /api/terminals/{airport}/{terminalNumber}`:** Send a JSON object in the request body with the updated terminal data.
 
-**Endpoint** localhost:8080/api/terminals/SFO/2
+**Endpoint**
+
+    localhost:8080/api/terminals/SFO/2
         
-**Body**
+**Request Body**
         
         {
                 "airport": "SFO",
@@ -90,12 +103,14 @@ localhost:8080/api/terminals
                     "A3"
                 ]
             }
-            
+---
 **PATCH /api/terminals/{airport}/{terminalNumber}`:** Send a JSON object in the request body with the partially updated terminal data.
 
-**Endpoint** localhost:8080/api/terminals/SFO/2
+**Endpoint**
+
+    localhost:8080/api/terminals/SFO/2
         
-**Body**
+**Request Body**
 
         {
                 "gates": [
@@ -104,7 +119,7 @@ localhost:8080/api/terminals
                     "N3"
                 ]
             }
-            
+---            
 **DELETE /api/terminals/{airport}/{terminalNumber}`:** Send the DELETE request.
 
-**Endpoint** localhost:8080/api/terminals/SFO/2
+    localhost:8080/api/terminals/SFO/2
